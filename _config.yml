@@ -16,16 +16,17 @@
 title: harun dev blog
 email: marcus.m.seong@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Harun's dev blog. WP. Laravel. Vue. React. Vanilla JS. Sass. Foundation Email. 
+    Harun's dev blog. WP. Laravel. Vue. React. Vanilla JS. Sass. Foundation Email. 
 
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username:  remeta_marcus 
+twitter_username:  remeta_marcus
 github_username:  marcusseong
 
 # Build settings
 markdown: kramdown
-theme: minima
+# theme: minima
+# theme: "jekyll-theme-awesome" 
 plugins:
   - jekyll-feed
 
